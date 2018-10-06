@@ -61,12 +61,12 @@ To download (clone) the script to your VPS, use the following command in VPS Lin
 
 ```bash
 cd ~
-git clone https://github.com/ETS5/ANODOSmasternodesetup
+git clone https://github.com/ETS5/ANDSmasternodesetup
 ```
 
 __NOTE:__ in case if you will need to re-download this setup script from github repo, use the following git command:
 ```bash
-cd ~/ANODOSmasternodesetup
+cd ~/ANDSmasternodesetup
 git reset --hard
 git pull
 ```
@@ -74,10 +74,10 @@ git pull
 **5) Run the install script** which will download wallet binaries from github repository and install and configure your masternode with all necessary options.
 
 ```bash
-cd ~/ANODOSmasternodesetup
+cd ~/ANDSmasternodesetup
 sudo bash ANODOS-setup.sh [Masternode_Private_Key]
 ```
-__NOTE:__ This process may take anywhere from 5 to 20 minutes, depending on your VPS HW specs. If it's not your very first ever masternode setup, you may want to speed up the process by doing things in parallel. While the ANODOSmasternodesetup script is running on the VPS, you can spend this time getting ready to start your new masternode from your Hot Wallet (also referred to as Control Wallet) by following instructions in next step (6).
+__NOTE:__ This process may take anywhere from 5 to 20 minutes, depending on your VPS HW specs. If it's not your very first ever masternode setup, you may want to speed up the process by doing things in parallel. While the ANDSmasternodesetup script is running on the VPS, you can spend this time getting ready to start your new masternode from your Hot Wallet (also referred to as Control Wallet) by following instructions in next step (6).
 
 Once the script completes, it will output your VPS Public IP Address and masternode Private Key which it generated for this masternode. Detailed instructions on what to do next will be provided on the VPS console.
 
@@ -307,4 +307,4 @@ or BTC to **3H1JNkydHxDbhoXLREpxXccvyNh7Awr2jX**
 
 
 
-(c) 2018 by Rush Hour, for anodos
+(c) 2018 by Rush Hour, for Anodos
