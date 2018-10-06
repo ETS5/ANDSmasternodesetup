@@ -169,7 +169,7 @@ rm -rf Anodos.Ubuntu.VPS.16.04.tar.gz
 stop_daemon
 
 # Deploy binaries to /usr/bin
-cd Anodos
+cd ~
 sudo cp Anodos/anodos* /usr/bin/
 sudo chmod 755 -R ~/Anodos
 sudo chmod 755 /usr/bin/anodos*
