@@ -32,8 +32,8 @@ function delay { echo -e "${GREEN}Sleep for $1 seconds...${NC}"; sleep "$1"; }
 
 function stop_daemon {
     if pgrep -x 'anodosd' > /dev/null; then
-        echo -e "${YELLOW}Attempting to stop anodosd${NC}"
-        anodos-cli stop
+echo -e "${YELLOW}Attempting to stop anodosd${NC}"
+anodos-cli stop
         delay 30
         if pgrep -x 'anodosd' > /dev/null; then
             echo -e "${RED}anodosd daemon is still running!${NC} \a"
