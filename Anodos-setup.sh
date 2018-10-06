@@ -175,8 +175,8 @@ sudo chmod 755 -R ~/Anodos
 sudo chmod 755 /usr/bin/anodos*
 
 # Deploy masternode monitoring script
-cp ~/Anodosmasternodesetup/nodemon.sh /usr/local/bin
-sudo chmod 711 /usr/local/bin/nodemon.sh
+cp ~/Anodosmasternodesetup/andsmon.sh /usr/local/bin
+sudo chmod 711 /usr/local/bin/andsmon.sh
 
 #Create datadir
 if [ ! -f ~/.anodoscore/anodos.conf ]; then 
@@ -350,8 +350,8 @@ To monitor system resource utilization and running processes:
 ${YELLOW}htop${NC}
 ========================================================================
 To view the list of peer connections, status of your masternode, 
-sync status etc. in real-time, run the nodemon.sh script:
-${YELLOW}nodemon.sh${NC}
+sync status etc. in real-time, run the andsmon.sh script:
+${YELLOW}andsmon.sh${NC}
 or just type 'node' and hit <TAB> to autocomplete script name.
 ========================================================================
 Enjoy your Anodos Masternode and thanks for using this setup script!
@@ -359,7 +359,7 @@ If you found this script and masternode setup guide helpful...,
 BTC to **3H1JNkydHxDbhoXLREpxXccvyNh7Awr2jX**
 Eswede
 "
-# Run nodemon.sh
-nodemon.sh
+# Run andsmon.sh
+andsmon.sh
 
 # EOF
