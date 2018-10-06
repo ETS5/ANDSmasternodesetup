@@ -95,5 +95,5 @@ echo -ne '\n'
 
 echo -e "${GREEN}Your masternode is now up to date${NC}"
 # Run nodemon.sh
-nodemon.sh
+andsmon.sh
 # EOF
