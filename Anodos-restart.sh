@@ -43,4 +43,7 @@ sleep 10
 echo -ne '[###################] (100%)\r'
 echo -ne '\n'
 
+#run andsmon.sh
+andsmon.sh
+
 # EOF
