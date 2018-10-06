@@ -176,7 +176,7 @@ sudo chmod 755 /usr/bin/anodos*
 
 # Deploy masternode monitoring script
 cd ~
-cp ~/Anodosmasternodesetup/andsmon.sh /usr/local/bin
+cp ~/ANDSmasternodesetup/andsmon.sh /usr/local/bin
 sudo chmod 711 /usr/local/bin/andsmon.sh
 
 #Create datadir
